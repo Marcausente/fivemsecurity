@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="hero-content-modern">
                     <h1 className="hero-title-modern">GRUPPE SECHS</h1>
                     <p className="hero-subtitle-modern">
-                        SEGURIDAD PRIVADA DE ÉLITE E INVESTIGACIÓN <br /> "Poniendo la 'U' en Seguridad"
+                        SEGURIDAD PRIVADA DE ÉLITE E INVESTIGACIÓN <br /> "Putting U in Secure"
                     </p>
                     <a href="#services" className="btn-modern">Explorar Servicios</a>
                 </div>
