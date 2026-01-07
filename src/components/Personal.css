@@ -1,0 +1,79 @@
+/* Recruitment Modern */
+.personal-modern {
+    background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.personal-grid-modern {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.personal-content-modern h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-white);
+}
+
+.highlight-text {
+    color: var(--primary-green);
+}
+
+.stat-row {
+    display: flex;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
+.stat-item h4 {
+    font-size: 2.5rem;
+    color: var(--primary-green);
+    margin-bottom: 0.5rem;
+}
+
+.stat-item p {
+    color: #888;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Training Modern */
+.training-modern {
+    text-align: center;
+    background-color: var(--dark-bg);
+}
+
+.training-glass-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 30px;
+    padding: 4rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+}
+
+.training-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+    text-align: left;
+}
+
+.training-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #ccc;
+    font-size: 1.1rem;
+}
+
+.check-icon {
+    color: var(--primary-green);
+    font-size: 1.2rem;
+}
